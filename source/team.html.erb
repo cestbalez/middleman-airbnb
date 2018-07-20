@@ -1,0 +1,15 @@
+<div class="team-container">
+  <div class="team-content">
+    <h2 class="team-header text-center">This is the supergroup at LeWagon</h2>
+
+    <ul class = "list-inline text-center">
+      <% ["ali", "magnus"].each do |name| %>
+        <li>
+          <%= image_tag "#{name}.jpeg", class: "avatar-bordered-xl" %>
+          <h3><%= name.capitalize %></h3>
+          <p>username</p>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

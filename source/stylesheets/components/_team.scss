@@ -1,0 +1,20 @@
+@import "components/_avatar.scss";
+
+.page-wrapper {
+ height: calc(100vh - 170px);
+}
+
+.team-header {
+  font-size: 30px;
+}
+
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25vh;
+ }
+
+ .team-content{
+
+ }
